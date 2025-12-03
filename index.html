@@ -1,0 +1,81 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="./tem.css">
+    <style>
+        /*grid*/
+        body{
+           
+            background-image:url("img/4e.jpg");
+            background-repeat: no-repeat;
+             background-size: cover;            
+        }
+        h1 {
+            background-color: rgb(228, 158, 67);
+            font-size: 50px;
+            padding: 3cqh;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            gap: 30px 100px;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+            justify-content: center; 
+        }
+
+        .container div {
+            background-color: #59514F;
+            border: 1px solid black;
+            padding: 30px; 
+            font-size: 30px;
+            text-align: center;
+            margin-top: 50px;
+            display: flex;     
+            flex-direction: column; 
+            align-items: center; 
+        }
+
+        
+        .img {
+            width: 50px;
+            height: 50px; 
+            object-fit: cover; 
+            margin-bottom: 15px; 
+
+        }
+         a {
+            text-decoration: none;
+            color: black;
+            font-size: 3em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1> Recomendações de Entretenimento </h1> <div class="container">
+        
+        <div>
+            <img src="./img/movie.png" >
+            <a href="./movies.html">Filmes</a>
+        </div>
+
+        <div>
+            <img src="./img/abra-o-livro.png"  >
+            <a href="./books.html">Livros</a>
+        </div>
+
+        <div>
+            <img src="./img/musical-note.png" >
+            <a  href="./music.html">Música</a>
+        </div>
+
+    </div>
+
+        <p>
+        <img src="./img/cachorro1.png" width="200"/>
+    </p>
+
+</body>
+</html>

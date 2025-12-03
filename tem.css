@@ -1,0 +1,29 @@
+body{
+ margin: 0;
+ padding: 0
+ }
+#menu {
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: rgb(255, 216, 156);
+     padding: 50px;
+    font-size: 50px;
+    align-items: center;
+      display: flex;
+      justify-content: flex-end;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    margin: 0 20px;
+    
+}
+
+#menu li a.active {
+    color: brown;
+    font-weight: bold;
+    border-bottom: 2px solid brown; 
+   }
+ 
