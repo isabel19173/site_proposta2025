@@ -7,39 +7,83 @@
     <style>
     body{
    background-color: #BFB4B0;
-
+}
    h1{
-   background-color:rgb(226, 198, 177);
-   color: brown;
-  height: 50px;
-  width: 500px;
-  font-size: 40px ;
-  text-align: center;
+   background-color:#59514F;
+   color:antiquewhite;
+   height: 90px;
+  width: 600px;
+  font-size: 60px ;
   margin-top: 30px ;
   padding: 40px;
-  align-content: center;
+  text-align: left;
+  
     
-   }
-            
-   }
-    .container {
+}
+.movie-card {
   display: flex;
-  background-color: DodgerBlue;
+  
 }
 
-.container div {
+.movie-card div {
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 20px;
+  padding: 50px;
   font-size: 24px;
+ 
+}
+.movie-card img{
+align-items: center;
+justify-content: center;
+justify-items: center;
+width: 500px;    
+height: auto;
+border-radius: 5px; 
+}
+.movie-info{
+   font-size: 1.1rem;
 }
 
-.img {
-   width: 50px;
-   height: 50px; 
-   object-fit: cover; 
-   margin-bottom: 15px; 
+ .info-section {
+ background-color: #e8dfd8;
+  padding: 60px;
+  border-radius: 12px;
+   margin: 40px auto;
+ max-width: 80000px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-size: larger;
+        }
+
+.info-section h2 {
+  color: #8b4513;
+  text-align: center;
+    font-size :80px;
+        }
+.info-content {
+  display: flex;
+   flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+        }
+.info-box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+   flex: 1;
+   min-width: 400px;
+  max-width: 800px;
+ 
+  font-size:larger ;
 }
+
+ .info-box h3 {
+color: #a0522d;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 2em;
+        }
 
 
     </style>
@@ -48,7 +92,7 @@
 <body>
    <ul id="menu">    
     <li> <a href="./index.html"> Home</a></li> 
-      <li ><a href="./movies.html" class="active" >Filmes</a></li>
+      <li ><a href="./movies.html" class="active">Filmes</a></li>
      <li ><a href="./books.html">Livros</a></li>
      <li ><a href= "./music.html">Música</a></li>
      
@@ -57,16 +101,95 @@
   
 <body>
 
-<h1>Indicações de Filmes :</h1>
+<h1>Indicações de Filmes:</h1>
 
-<div class="container">
-  <div>
-   <img src="./img/isa.jpg"></div>
-  <div> <img src="./img/priss.jpg"></div>
-  <div> <img src="./img/ma.jpg"></div> 
-  <div> <img src="./img/30.jpg"></div> 
+<div class="movie-card">
+  <div> <img src="./img/isa.jpg">
+    <div class="movie-info">
+      <h3>NADA DE NOVO NO FRONT</h3>
+     <p>Um jovem soldado alemão confronta os horrores brutais e psicológicos das trincheiras na Primeira Guerra Mundial.</p></div>
+  </div>
+
+  <div> <img src="./img/priss.jpg">
+  <div class="movie-info">
+ <h3>PRINCESSA MONONOKE </h3>
+  <p>Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e uma colônia mineira. Nesta aventura ele conhece Mononoke.</p>
+  </div></div>
+
+  <div> <img src="./img/ma.jpg">
+  <div class="movie-info">
+  <h3>PLANETA DOS MACACOS : ORIGEM </h3>
+  <p>Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e uma colônia mineira. Nesta aventura ele conhece Mononoke.</p>
+  </div></div>
+  
+  <div> <img src="./img/30.jpg">
+  <div class="movie-info">
+  <h3>DE REPENTE 30 </h3>
+  <p>Uma garota de 13 anos faz um desejo e acorda magicamente no dia seguinte no corpo de sua versão adulta de 30 anos.</p>
+  </div></div>
+
+  <div><img src="./img/Black_Widow_(2020).jpg">
+  <div class="movie-info">
+   <h3>VIÚVA NEGRA </h3>
+     <p>Natasha Romanoff precisa confrontar uma perigosa conspiração ligada ao seu passado sombrio como espiã antes de se tornar uma Vingadora.</p>
+  </div></div> 
+
+  </div>
+<div class="movie-card">
+  <div><img src="./img/20224832.jpg">
+  <div class="movie-info">
+   <h3>SENHOR DO ANÉIS: A SOCIEDADE DO ANEL </h3>
+    <p>Um humilde hobbit e seus companheiros iniciam uma jornada épica para destruir um anel poderoso e salvar a Terra Média do mal.</p>
+  </div></div> 
+  
+  <div> <img src="./img/FREE.jpg"  >
+     <div class="movie-info">
+   <h3> ESCRITORES DA LIBERDADE</h3>
+     <p>Uma professora idealista usa diários e literatura para unir e transformar alunos de alto risco envolvidos em violência e tensão racial.</p>
+  </div></div> 
+
+  <div> <img src="./img/Frankenstein_(2025).jpg">
+    <div class="movie-info">
+    <h3>FRANKENSTEIN</h3>
+     <p>O cientista Victor Frankenstein desafia a morte ao dar vida a uma criatura monstruosa que busca propósito em um mundo que a rejeita.</p>
+  </div>
 </div> 
-    
+
+  <div> <img src="./img/forrest.jpg">
+    <div class="movie-info">
+    <h3>FORREST GUMP </h3>
+     <p>Um homem ingênuo presencia momentos históricos dos EUA e influencia pessoas com seu otimismo enquanto busca reencontrar seu grande amor.</p>
+  </div></div> 
+  <div><img src="./img/opio.jpg">
+    <div class="movie-info">
+  <h3>IO PIOR VIZINHO DO MUNDO</h3>
+     <p>Um viúvo rabugento e solitário recupera a vontade de viver após criar uma amizade inesperada com a nova família vizinha.</p>
+  </div>
+</div> 
+
+</div> 
+ <div class="info-section">
+        <h2>Por que assistir filmes?</h2>
+        <div class="info-content">
+            <div class="info-box">
+                <h3> Desenvolvimento Pessoal</h3>
+                <p>Filmes nos expõem a diferentes culturas, perspectivas e experiências, ampliando nossa visão de mundo e estimulando a empatia.</p>
+            </div>
+            <div class="info-box">
+                <h3> Entretenimento e Relaxamento</h3>
+                <p>Assistir a um bom filme é uma forma eficaz de reduzir o estresse, proporcionando momentos de descontração e diversão.</p>
+            </div>
+            <div class="info-box">
+                <h3>Conexão Social</h3>
+                <p>Filmes criam pontes entre pessoas, servindo como tema de conversas e fortalecendo laços através de experiências compartilhadas.</p>
+            </div>
+        </div>
+    </div>    
+
+
+
+
+
 </body>
 
 </html>

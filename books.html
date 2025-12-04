@@ -5,24 +5,123 @@
        rel="stylesheet"
        href="./tem.css">
     <style>
-        body{
-           background-color:#B2BFA4;
+body{
+background-color:#B2BFA4;
             
+}
+.livros {
+  display: flex;
+  flex-wrap: wrap;         
+  justify-content: center;  
+  gap: 50px;               
+  padding: 80px;
+}
+
+.livros img {
+  width: 450px;          
+  height: auto;
+  border-radius: 5px;
+}
+h1{
+   background-color:#464b42;
+   color: whitesmoke;
+  height: 90px;
+  width: 500px;
+  font-size: 60px ;
+    margin-top: 30px ;
+  padding: 40px;
+  
+}
+ .info-section {
+ background-color: #464b42;
+  padding: 60px;
+  border-radius: 12px;
+   margin: 40px auto;
+ max-width: 80000px;
+  font-size: larger;
         }
+
+.info-section h2 {
+  color:#b1b8ab;
+  text-align: center;
+    font-size :80px;
+        }
+.info-content {
+  display: flex;
+   flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+        }
+.info-box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+   flex: 1;
+   min-width: 400px;
+  max-width: 800px;
+ 
+  font-size:larger ;
+}
+
+ .info-box h3 {
+color: #708174c4;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 2em;
+        }
+
            
     </style>
 </head>
 
 <body>
    <ul id="menu"> 
-    <li> <a href="./index.html"> Home</a></li>    
-      <li ><a href="./movies.html" >Filmes</a></li>
-     <li ><a href="./books.html" class="active">Livros</a></li>
-     <li ><a href= "./music.html">Música</a></li>
+    <li> <a href="./index.html"><i class="fas fa-home"></i> Home</a></li>    
+      <li ><a href="./movies.html" ><i class="fas fa-film"></i>Filmes</a></li>
+     <li ><a href="./books.html" class="active"><i class="fas fa-book"></i>Livros</a></li>
+     <li ><a href= "./music.html"><i class="fas fa-music"></i>Música</a></li>
       
      </li>
    </ul>
-    
+   
+<h1>Indicações Livros:</h1>
+
+<div class="livros">
+  <img src="./img/bat.jpg">
+  <img src="./img/ag.jpg">
+  <img src="./img/cad.jpg"> 
+  <img src="./img/hom.jpg">
+  <img src="./img/ht.jpg"></div> 
+
+<div class="livros">
+  <img src="./img/ni.jpg">
+  <img src="./img/rv.jpg">
+  <img src="./img/orp.jpg"> 
+  <img src="./img/li.jpg">
+  <img src="./img/od.jpg">
+</div>
+
+ <div class="info-section">
+ <h2>Por que fazer leitura ?</h2>
+ <div class="info-content">
+<div class="info-box">
+<h3> Desenvolvimento Pessoal</h3>
+<p>A leitura amplia o conhecimento, estimula a imaginação e nos apresenta diferentes culturas, ideias e perspectivas.</p>
+</div>
+<div class="info-box">
+<h3> Melhora da Concentração</h3>
+<p>Ler fortalece o foco e a atenção, ajudando a desenvolver disciplina mental e capacidade de compreensão.</p>
+</div>
+<div class="info-box">
+<h3>Enriquecimento do Vocabulário</h3>
+<p>O contato contínuo com novas palavras e expressões melhora a escrita, a comunicação e o domínio da língua.</p>
+</div>
+</div>
+</div>  
+
+
     
 </body>
 
